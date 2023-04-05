@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #0e0c0c49; */
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.cointainer{
+    width: 400px;
+    height: 450px;
+    /* background: #0c0b0bc7; */
+    background: linear-gradient(#e66465, #9198e5);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  
+}
+.title{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    font-size: 35px;
+
+}
+
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 325px;
+  
+}
+.deleteTask{
+    cursor: pointer;
+ width: 25px;
+ height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: orangered;
+    color: #ffffff;
+    outline: none;
+    align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.pText{
+    background: #ffffff;
+    text-transform: capitalize;
+   
+}
+.parentdiv{
+   
+    display: flex;
+    margin: 22px;
+    margin-bottom: 60px;
+}
+.input_text{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 22px;
+    font-size: medium;
+    
+    border: 2px solid rgb(69, 5, 187);
+  
+}
+.input_btn{
+    width: 100px;
+    background: #097d56;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px #03110c;;
+    
+}
+.clear-task{
+    position: absolute;
+   bottom: 2px;
+   left: 10%;
+   background: orangered;
+   color: #ffffff;
+   width: 150px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+}
+.btn-all{
+    position: absolute;
+   bottom: 2px;
+   /* top: 10px; */
+   left: 51%;
+   background: orangered;
+   color: #ffffff;
+   width: 150px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+    
+}
