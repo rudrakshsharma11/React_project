@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.p-heading{
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+    top: 105px;
+
+}
+
+.p-details{
+
+    
+    position: relative;
+    row-gap: 10px;
+    font-size: 30px;
+    left: 0;
+    top: 200px;
+    
+}
+.p-btn{
+    position: relative;
+    top: 260px;
+    left: 10px;
+    margin: 0px 57px;
+    padding: 8px 40px;
+    cursor: pointer;
+    background-color: darkorange;
+    font-size: 25px;
+    border-radius: 25px;
+}
+.bck-btn{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    /* margin: 0px 57px; */
+    padding: 3px 22px;
+    cursor: pointer;
+    background-color: darkorange;
+    font-size: 25px;
+    border-radius: 25px;
+
+}

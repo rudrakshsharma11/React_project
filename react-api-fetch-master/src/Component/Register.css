@@ -1,0 +1,54 @@
+.r-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.form{ 
+    
+    position: relative;
+    top: 60px;
+    left: 250px;
+    margin: 50px;
+    
+   
+} 
+
+.heading{
+    margin: 50px;
+    margin-top: 20px;
+    font-family: "Gill Sans", sans-serif;
+    font-family: sans-serif;
+    
+    
+}
+
+
+.text-field{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.input-field{
+    margin: 24px 74px;
+    padding: 13px 52px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.reg-btn{
+    margin: 5px 8px;
+    padding: 10px 17px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: lightblue;
+    cursor: pointer;
+}

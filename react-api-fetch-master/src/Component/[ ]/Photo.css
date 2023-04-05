@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ph-container{
+
+    width: 985px;
+   height: 500px;
+   margin: 10px 65px;
+   padding: 30px 0px;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+}
+
+.ph-body{
+    height: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.ph-card{
+    margin: 20px 20px;
+    box-sizing: border-box;
+}
+
+.ph-heading{
+    
+    width: 800px;
+    margin-top: 36px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
